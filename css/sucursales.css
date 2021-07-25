@@ -1,0 +1,66 @@
+h1{
+    color: rgb(228, 145, 51);
+    font-size: 30px;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+
+.paraTransicion:hover {
+    transition: 3s;
+    font-size: 3rem;
+}
+
+P{
+    
+    font-size: 35px;
+    background-color: white;
+    font-family: 'Benne', serif;
+    color: rgb(24, 22, 22);
+    height: 80px;
+    text-align: center;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.imagen1{
+    width: 80%;
+    height: 500px;
+    padding-left: 300px;
+
+}
+.imagen2{
+    width: 80%;
+    height: 500px;
+    padding-left: 259px;
+    transform: scale(1,1);
+
+
+}
+.imagen3{
+    width: 80%;
+    height: 500px;
+    padding-left: 300px;
+
+}
+.footer{
+    background-color: black;
+}
+
+
+.todoImagen{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}

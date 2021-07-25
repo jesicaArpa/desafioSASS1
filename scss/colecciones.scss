@@ -1,0 +1,98 @@
+.header{
+    .header__titulo{
+            font-size: 35px;
+            background-color: white;
+            font-family: 'Benne', serif;
+            color: rgb(24, 22, 22);
+            height: 80px;
+            text-align: center;
+            margin:0;
+            padding:0;
+            display:flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items: center;
+            font-weight: bold;
+    }
+}
+.main{
+    .main__sect1{
+        
+        .sect1__paraTransicion:hover{
+            transition: 3s;
+            font-size: 3rem;
+            color: rgba(0, 0, 0, 0.644);
+            font-size: 25px;
+            text-align: center;
+            padding-top:30px;
+            padding-bottom: 20px;
+            background-image: linear-gradient(#998376, #E8C6B3);
+  
+            
+        }
+        .sect1__imagen1{
+            width: 100%;
+            height: 550px;
+        
+        }
+    }
+    .main__sect2{
+        .sect2__botas{
+            font-size: 35px;
+            background-color: white;
+            font-family: 'Benne', serif;
+            color: rgb(24, 22, 22);
+            height: 80px;
+            text-align: center;
+            margin:0;
+            padding:0;
+            display:flex;
+            flex-direction: row;
+            justify-content:space-around;
+            align-items: center;
+            font-weight: bold;
+
+        }
+        .sect2__todoImagen{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100%;
+            .todoImagen__imagen2{
+                width: 50%;
+                height: 350px;
+
+            }
+            .todoImagen__imagen3{
+                @extend.todoImagen__imagen2;
+
+            }
+
+        }
+        .sect2__sandalias{
+            @extend.sect2__botas;
+        }
+        .sect2__todoImagen{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100%;
+            .todoImagen__imagen4{
+                @extend.todoImagen__imagen2;
+
+            }
+            .todoImagen__imagen5{
+                @extend.todoImagen__imagen2;
+
+            }
+
+        }
+
+
+    }
+}
+.footer{
+    background-color: black;
+}
